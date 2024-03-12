@@ -40,12 +40,12 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ),
-      body: Row(
+      body: Column(
         children: [
           Expanded(
             flex: 2,
             child: Container(
-              width: 50,
+              //width: 50,
               height: 100,
               color: Colors.green,
             ),
@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Expanded(
             flex: 1,
             child: Container(
-              width: 50,
+              //width: 50,
               height: 100,
               color: Colors.red,
             ),
@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Expanded(
             flex: 2,
             child: Container(
-              width: 50,
+              //width: 50,
               height: 100,
               color: Colors.purple,
             ),
@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Expanded(
             flex: 3,
             child: Container(
-              width: 50,
+              //width: 50,
               height: 100,
               color: Colors.orange,
             ),
